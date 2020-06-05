@@ -3,6 +3,8 @@ var request = require('request');
 const express =  require("express")
 const app = express()
 
+var port = process.env.PORT || 3000;
+
 var T = new twit({
   consumer_key: process.env.consumer_key,//consumer_key
   consumer_secret: process.env.consumer_secret,//consumer_secret
@@ -111,3 +113,4 @@ function tweet(text) {
 
 }
 
+app.listen(port, ()=>console.log("Jai Shree ram"))
