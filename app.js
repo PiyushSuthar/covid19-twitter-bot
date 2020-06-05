@@ -5,12 +5,12 @@ var app = express();
 
 var port = process.env.PORT || 3000;
 
-// var T = new twit({
-//   consumer_key: process.env.consumer_key,//consumer_key
-//   consumer_secret: process.env.consumer_secret,//consumer_secret
-//   access_token: process.env.access_token,//access_token
-//   access_token_secret: process.env.access_token_secret,//access_token secret
-// })
+var T = new twit({
+  consumer_key: process.env.CONSUMER_KEY,//consumer_key
+  consumer_secret: process.env.CONSUMER_SECRET,//consumer_secret
+  access_token: process.env.ACCESS_TOKEN,//access_token
+  access_token_secret: process.env.ACCESS_TOKEN_SECRET,//access_token secret
+})
 
 // Function for capitalizing the first word of the string
 function numberWithCommas(x) {
