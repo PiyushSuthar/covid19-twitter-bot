@@ -4,7 +4,7 @@
   "description": "A small and easy to use twitter bot.",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "Twitter",
@@ -13,6 +13,7 @@
   "author": "Piyush Suthar",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "request": "^2.88.2",
     "twit": "^2.2.11"
   }
