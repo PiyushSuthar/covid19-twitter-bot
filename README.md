@@ -3,7 +3,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: piyushsthr](https://img.shields.io/twitter/follow/piyushsthr.svg?style=social)](https://twitter.com/piyushsthr)
 
-> A Bot thats latest corona updates daily.
+> A Bot that tweets latest corona updates daily.
+
+### Demo
+Check my Twitter Acouunt for demo, [@piyushsthr](https://twitter.com/piyushsthr)
 
 ## Install
 
