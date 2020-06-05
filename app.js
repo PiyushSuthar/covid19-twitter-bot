@@ -1,21 +1,18 @@
 var twit = require('twit');
 var request = require('request');
-const express =  require("express")
-const app = express()
+var express =  require('express')
+var app = express();
 
 var port = process.env.PORT || 3000;
 
-var T = new twit({
-  consumer_key: process.env.consumer_key,//consumer_key
-  consumer_secret: process.env.consumer_secret,//consumer_secret
-  access_token: process.env.access_token,//access_token
-  access_token_secret: process.env.access_token_secret,//access_token secret
-})
+// var T = new twit({
+//   consumer_key: process.env.consumer_key,//consumer_key
+//   consumer_secret: process.env.consumer_secret,//consumer_secret
+//   access_token: process.env.access_token,//access_token
+//   access_token_secret: process.env.access_token_secret,//access_token secret
+// })
 
 // Function for capitalizing the first word of the string
-const capitalize = (str, lower = false) =>
-  (lower ? str.toLowerCase() : str).replace(/(?:^|\s|["'([{])+\S/g, match => match.toUpperCase());
-;
 function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
